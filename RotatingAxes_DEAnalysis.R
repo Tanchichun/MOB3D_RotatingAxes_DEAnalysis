@@ -22,7 +22,6 @@ spatial_countMat_list = spatial_countMat_list[37:146]
 spatial_location_list = spatial_location_list[37:146]
 
 numCluster = 10
-# IRIS_Domain = readRDS(paste0("~/data/Collaboration/AlexF/MOB/IRIS_Leiden_classifyDV_Analysis/DomainLabel/IRIS_30Section_",numCluster,"Domain.rds"))
 IRIS_Domain = read.csv(paste0("~/data/Collaboration/AlexF/MOB/IRIS_Leiden_classifyDV_Analysis/DomainLabel/Fleischmann_leiden_clusters.csv.gz"))
 coord3d = read.csv("~/data/Collaboration/AlexF/MOB/IRIS_identifyAxis_optimizeDE/symmetrized_spots_correct.csv")
 
